@@ -85,30 +85,6 @@ content="Explore the best quality pickles at Niti Arya. Shop now for a variety o
 </Helmet>
 
 
-<div className="headerFlex">
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headerfreeshipping} alt="logo"></img>
-
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headersupport} alt="logo"></img>
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headeronlinepayment} alt="logo"></img>
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headerdelivery} alt="logo"></img>
-
-</div>
 
 
 <header className="normal_header">
@@ -156,7 +132,13 @@ src={LogoNitiArya} alt="logo"></img>
 
 <ul>
 <h4><a></a>Account Settings</h4>
+
+<div>
+<i className="fa fa-instagram"></i>
+<i className="fa fa-facebook"></i>
+<i className="fa fa-pinterest"></i>
 <li onClick={MyaccountNavigate}><a>My Account Info</a></li>
+</div>
 
 </ul>
 

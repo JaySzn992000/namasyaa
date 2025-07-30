@@ -4,8 +4,8 @@
 display: flex;
 justify-content: center;
 margin-left: 317px;
-padding: 31px 0 207px;
-background-color: #100424;
+padding: 31px 0 227px;
+background-color: #f8dccc;
 }
 
 .header_dv {
@@ -18,16 +18,17 @@ margin-top: .9em;
 cursor: pointer;
 }
 
+
 .headerFilter .div_header_Filter {
 display: flex;
 justify-content: center;
 text-align: start;
-gap: 5.3em;
+gap: 5em;
 }
 
 
 .headerFilter ul {
-line-height: 3em;
+line-height: 3.5em;
 margin: 0;
 }
 
@@ -39,12 +40,13 @@ font-size: 1.1rem;
 
 
 .div_header_Filter h4 {
-    font-size: .9rem;
+    font-size: 1rem;    
+    color:#903c34;
 }
 
 
 .headerFilter ul li {
-color: rgb(247, 243, 243);
+color: rgb(72, 69, 69);
 transition: 0.5s;
 font-size: .8rem;
 cursor: pointer;
@@ -53,6 +55,14 @@ cursor: pointer;
 
 .headerFilter ul li:hover {
 color: #f8a424;
+}
+
+
+.headerFilter ul i {
+color: #903c34;
+margin-right: .5em;
+font-size: 1.4rem;
+cursor: pointer;
 }
 
 

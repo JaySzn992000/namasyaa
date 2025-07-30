@@ -5,6 +5,13 @@
 Hide */
 
 
+/*  */
+
+
+
+/*  */
+
+
 .password-field {
 position: relative;
 display: flex;
@@ -136,7 +143,6 @@ z-index: 9999;
 .Secure_ordering {
 width: 100%;
 line-height: 2.1em;
-max-width: 711px;
 margin: auto;
 padding: 1em;
 box-sizing: border-box;
@@ -144,6 +150,7 @@ border-radius: 13px;
 margin-top: 1.7em;
 margin-bottom: 4.3em;
 }
+
 
 .Secure_ordering h2 {
     margin-bottom: .9em;
@@ -166,6 +173,7 @@ color: rgb(255, 0, 0);
 
 
 @media (max-width: 768px) {
+
 
 .tshirt_Left {
 width: 100%;

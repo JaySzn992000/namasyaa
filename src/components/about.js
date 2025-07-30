@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../headers_footer/navbar";
 import Header from "../headers_footer/header";
-import AboutPickle from "../Slider/AboutPickle.svg";
+import AboutPickle from "../Slider/AboutPickle.png";
 import { Helmet } from "react-helmet";
 import "./about.css";
 
@@ -47,15 +47,7 @@ and beautify. Our Aloe Vera Gel is
 a multipurpose beauty essential for both men 
 and women — designed to promote healthy skin, hair, 
 and scalp through the purity of natural ingredients.{" "}
-</p>
-</section>
 
-</main>
-
-
-<section className="about_flex_tw">
-
-<p className="about_para">
 Inspired by age-old traditions and trusted across 
 cultures, Aloe Vera has been used for thousands of 
 years for its medicinal and cosmetic benefits. Our gel 
@@ -63,8 +55,12 @@ is extracted from robust, ripe, and succulent Aloe Vera
 leaves, ensuring 99% purity and maximum nutrient retention. 
 Enriched with over 75 vital nutrients including Vitamins A, 
 C, E, B12, folic acid, enzymes, minerals, and amino acids — 
-it delivers nature’s best directly to your skin and hair.</p>
+it delivers nature’s best directly to your skin and hair.
+</p>
 </section>
+
+</main>
+
 
 {/*  */}
 

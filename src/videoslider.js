@@ -4,6 +4,7 @@ import cake1 from "./Slider/video1.mp4";
 import cake2 from "./Slider/video2.mp4";
 import cake3 from "./Slider/video3.mp4";
 import cake4 from "./Slider/video4.mp4";
+import cake5 from "./Slider/video5.mp4";
 import "./videoslider.css";
 
 const VideoSliderComponent = () => {
@@ -13,6 +14,7 @@ cake1,
 cake2,
 cake3,
 cake4,
+cake5,
 ];
 
 

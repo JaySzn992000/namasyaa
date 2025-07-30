@@ -128,7 +128,7 @@ Type Filter */}
 
 <div className="priceContainer">
 
-<h4 id="priceRange">FILTER BY PRICE :</h4>
+<h4 id="priceRange">FILTER BY</h4>
 
 <li className="maxMin">
 {" "}
@@ -163,7 +163,7 @@ style={{ width: "90%" }}
 
 </div>
 
-<h4>Collections :</h4>
+<h4>Choose :</h4>
 
 <div>
 {[

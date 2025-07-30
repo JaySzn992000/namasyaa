@@ -12,7 +12,8 @@ import "./ProductListmodule.css";
 import "./Home.css";
 import Pickles from "../Products/Pickle";
 import Topnav from "../headers_footer/Topnav";
-// import VideoSliderComponent from "../videoslider";
+import VideoSliderComponent from "../videoslider";
+import Circlesliderlevideo from "../Circlesliderlevideo";
 // import TestimonialSlider from "./Testimonial";
 // import CategoryMangoes from "../Products/CategoryMangoes";
 // import DeliveryBanner from "../OtherImages/DeliveryBanner.jpg";
@@ -106,6 +107,8 @@ content="Pickles, Homemade Achaar, Mango Pickle, Buy Pickles Online, Indian Pick
 
 <Slider />
 
+<Circlesliderlevideo></Circlesliderlevideo>
+
 <div className="tshirt_Left">
 <Pickles showFilters={showFilters} limit={10}></Pickles>
 </div>
@@ -158,7 +161,7 @@ They are intuitive, solution oriented & inclusive of
 all Indian skin types and shades.
 </p>
 
-<img src="https://naturalbuti.com/wp-content/uploads/2024/07/image-14-2048x365.png" 
+<img src="https://www.koskii.com/cdn/shop/files/App-Exclusive-Desktop.jpg?v=1751275938&width=1600" 
 alt=""
 loading="lazy"/>
 
@@ -185,6 +188,8 @@ className="DlvyImg"
 </form>
 
 </div>
+
+<VideoSliderComponent></VideoSliderComponent>
 
 <Header />
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import ContactPickle from '../Slider/Contact_Achar.svg';
+import ContactPickle from '../Slider/Contact_Achar.jpg';
 import "./Contact.css";
 
 const Contactus = () => {

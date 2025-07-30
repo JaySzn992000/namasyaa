@@ -1,12 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router";
 import LogoNitiArya from "../Logo/LogoNitiArya.jpg";
-
 import headerdelivery from "../Slider/header4.img.jpg";
 import headersupport from "../Slider/header2.img.jpg";
 import headerfreeshipping from "../Slider/header1.img.jpg";
 import headeronlinepayment from "../Slider/header3.img.jpg";
-
 import "./Filterheader.css";
 
 const Filterheader = () => {
@@ -75,30 +73,6 @@ return (
 
 <div>
 
-<div className="headerFlex">
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headerfreeshipping} alt="logo"></img>
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headersupport} alt="logo"></img>
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headeronlinepayment} alt="logo"></img>
-
-<img
-className="ImgHeader"
-loading="lazy"
-src={headerdelivery} alt="logo"></img>
-
-</div>
-
 
 <header className="headerFilter">
 
@@ -151,7 +125,13 @@ alt="logo">
 
 <ul>
 <h4><a></a>Account Settings</h4>
+
+<div>
+<i className="fa fa-instagram"></i>
+<i className="fa fa-facebook"></i>
+<i className="fa fa-pinterest"></i>
 <li onClick={MyaccountNavigate}><a>My Account Info</a></li>
+</div>
 
 </ul>
 

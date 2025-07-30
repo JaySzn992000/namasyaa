@@ -3,7 +3,7 @@ import emailjs from "emailjs-com";
 import { Helmet } from "react-helmet";
 import Navbar from "../headers_footer/navbar";
 import Header from "../headers_footer/header";
-import ContactPickle from "../Slider/Contact_Achar1Hair.svg";
+import ContactPickle from "../Slider/Contact_Achar1Hair.jpg";
 import "./Contact.css";
 
 const Contactpage = () => {
