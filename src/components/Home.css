@@ -1,0 +1,266 @@
+/* Done .. */
+
+
+/* Password Eye's 
+Hide */
+
+
+.password-field {
+position: relative;
+display: flex;
+align-items: center;
+}
+
+
+.password-field input {
+width: 100%;
+padding-right: 30px; 
+}
+
+
+.eye-icon {
+position: absolute;
+right: 10px;
+cursor: pointer;
+user-select: none;
+}
+
+
+
+.seeLLProducts {
+padding: 11px 17px;
+margin-bottom: 3.1em;
+color: #100424;
+font-weight: 600;
+border: none;
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+font-weight: normal;
+font-size: 1.1rem;
+border-bottom: 1px solid #100424;
+background-color: rgb(255, 255, 255);
+}
+
+
+
+.tshirt_Left {
+/* width: 1124px;
+margin: 0 auto; */
+margin-top: 1.7em;
+margin-bottom: 1.3em;
+transform: translateX(-8.74%);
+}
+
+
+/* Best 
+Selling Gifts TExts */
+
+
+/*  */
+
+/*  */
+
+.img_bannerOne {
+margin-top: 2.7em;
+}
+
+/*  */
+
+.Icon_ItemsHome {
+display: flex;
+justify-content: center;
+gap: 1.3em;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+cursor: grab;
+user-select: none;
+width: 90%;
+padding-bottom : .3em;
+margin: auto;
+box-sizing: border-box;
+}
+
+
+.Icon_ItemsHome div {
+display: flex;
+align-items: center;
+scroll-snap-align: start;
+background: #fff;
+padding: 13px;
+padding-right: 47px;
+text-align: start;
+gap: 1.3em;
+line-height: 1.9em;
+border-radius: 27px;
+margin-top: 4.3em;
+box-shadow: 0 0 10px rgba(15, 13, 13, 0.119);
+}
+
+
+.Icon_ItemsHome::-webkit-scrollbar {
+display: none;
+}
+
+
+.grabbing {
+cursor: grabbing;
+}
+
+
+.Icon_ItemsHome img {
+width: 57px;
+height: 57px;
+border-radius: 50%;
+margin-right: -0.7em;
+}
+
+
+
+.Icon_ItemsHome h4 {
+font-weight: bold;
+}
+
+
+.whatsapp_message {
+position: fixed;
+width: 57px;
+height: 57px;
+bottom: 3.1em;
+right: 41px;
+border-radius: 50%;
+cursor: pointer;
+z-index: 9999;
+}
+
+
+.Secure_ordering {
+width: 100%;
+line-height: 2.1em;
+max-width: 711px;
+margin: auto;
+padding: 1em;
+box-sizing: border-box;
+border-radius: 13px;
+margin-top: 1.7em;
+margin-bottom: 4.3em;
+}
+
+.Secure_ordering h2 {
+    margin-bottom: .9em;
+}
+
+
+.Secure_ordering img {
+width: 100%;
+height: auto;
+margin-top: 2.1em;
+}
+
+
+
+.success_message {
+margin-bottom: 0.7em;
+color: rgb(255, 0, 0);
+}
+
+
+
+@media (max-width: 768px) {
+
+.tshirt_Left {
+width: 100%;
+margin-top: 3.3em;
+transform: translateX(0%);
+}
+
+
+.Icon_ItemsHome {
+padding: 0em;
+display: flex;
+justify-content: start;
+gap: .7em;
+width: 90%;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+}
+
+
+.Icon_ItemsHome p{
+width: 165px;
+font-size: .8rem;
+}
+
+
+.Icon_ItemsHome div {
+box-shadow: 0 0 10px rgba(26, 7, 7, 0.1);
+border-radius: 7px;
+margin-bottom: .7em;
+padding: 5px;
+gap: 1.3em;
+}
+
+
+
+.Secure_ordering {
+width: 95%;
+margin-top: .7em;
+margin-bottom: 3.1em;
+}
+
+
+.Secure_ordering img {
+width: 100%;
+}
+
+
+.img_bannerOne {
+width: 100%;
+height: 71px;
+margin-top: 1.7em;
+}
+
+
+.whatsapp_message {
+width: 50px;
+height: 50px;
+margin-left: -.9em;
+margin-bottom: -.7em;
+}
+
+
+}
+
+
+/*  */
+
+@media (min-width: 768px) and (max-width: 1519px) {
+
+
+.tshirt_Left {
+width: 100%;
+transform: translateX(0%);
+}
+
+
+.tshirt_Left .flex_productlist {
+width: 100%;
+transform: translateX(0%);
+gap: 0.4em;
+}
+
+
+.Icon_ItemsHome {
+display: flex;
+justify-content: start;
+white-space: nowrap;
+gap: 0.7em;
+padding: 0em;
+overflow-x: auto;
+scroll-snap-type: x mandatory;
+}
+
+.Icon_ItemsHome div {
+margin-bottom: .7em;
+}
+
+}

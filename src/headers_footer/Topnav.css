@@ -1,0 +1,69 @@
+.topnav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 2vw;
+background-color: #f8dccc;
+font-size: 0.95rem;
+color: rgb(255, 255, 255);
+flex-wrap: wrap;
+}
+
+
+.topnav-left p {
+margin: 0;
+font-weight: 500;
+}
+
+.topnav-center a,
+.topnav-right a {
+margin: 0 10px;
+text-decoration: none;
+color: #903c34;
+font-weight: 500;
+transition: color 0.3s ease;
+cursor: pointer;
+}
+
+.topnav-center a:hover,
+.topnav-right a:hover {
+color: rgb(255, 255, 255);
+}
+
+.topnav-right a {
+font-size: 1.2rem;
+}
+
+
+@media (max-width: 992px) {
+.topnav {
+flex-direction: column;
+align-items: center;
+text-align: center;
+gap: 5px;
+padding: 12px 3vw;
+}
+
+.topnav-center,
+.topnav-right {
+margin-top: 5px;
+}
+}
+
+
+
+@media (max-width: 576px) {
+.topnav-center a,
+.topnav-right a {
+margin: 0 6px;
+font-size: 0.85rem;
+}
+
+.topnav-right a {
+font-size: 1rem;
+}
+
+.topnav-left p {
+font-size: 0.85rem;
+}
+}
